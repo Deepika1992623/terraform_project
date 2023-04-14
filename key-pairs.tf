@@ -1,0 +1,5 @@
+#key pair
+resource "aws_key_pair" "cardweb-keypair" {
+  key_name   = "cardweb-keypair"
+  public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDFQZqPK2FoUzM6sCX3TPjure2RQHCpe0nuNl/wgS5kq4AWs7Mt2qH9g6daTboB5O/8LvJBDgRO+Na9nSo/lIHKhCOJ5jE6O0qkqKEQ25pXfzdrYp6+YURTfZ/ng1kfa+sQcPQhkUYsqPLUlgfF/E67/VXots7mHvJrBuxdR08xAiqrTKmmFPrVxyOjJ33obpS56bi68erRqebhgP1JEWPzAxvGihby18mjW48BqzWnoTX4lSBpjxJtsE6uu7ssCsQumRhB+0VXnmzLKTD/WmAURNxy2QN6bePMUSbJTUBhTwgZCJB7qG9D1VFmZ3Ya7eJGeEYS2qsAjKCagpHzxjakGNfQROas9kHoSjbnORmBoI69rSP/TMUSjoVgJMns/3SrbIwamCiHCeiL++k0A7yPGn2KRqcVDUxvX7duBzN7JtNEzO+vyB08Xu9PEWNKcI/sK2kqwVhVcZNQRikOtR/aH8YWT1nW0VHDurUtZWOT+Ld5pSzCoRWp2R+hMc3Gukk= deepika@deepika-ThinkPad-P70"
+}
